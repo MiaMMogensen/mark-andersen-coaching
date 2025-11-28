@@ -1,0 +1,174 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 80px 20px 20px;
+  background-color: var(--white);
+  z-index: 100;
+  text-align: center;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 70px;
+}
+
+.navLink {
+  padding: 0.75rem 1.6rem;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.2s;
+  color: var(--black);
+  font-size: clamp(14px, 0.9vw + 0.4rem, 24px);
+}
+
+.navLink:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.active {
+  background-color: var(--black);
+}
+
+.navLink.active {
+  color: var(--white);
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: auto;
+  width: auto;
+}
+
+.booking {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.burger {
+  display: none; /* kun på mobil */
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 201;
+}
+
+.burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: var(--black);
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.navToggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.navToggle:checked + .burger span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.navToggle:checked + .burger span:nth-child(2) {
+  opacity: 0;
+}
+
+.navToggle:checked + .burger span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+/* Tablet */
+@media (max-width: 1240px) {
+  .nav {
+    padding: 15px 30px;
+  }
+
+  .navLinks {
+    gap: 30px;
+  }
+
+  .navLink {
+    padding: 12px 20px;
+  }
+
+  .logo {
+    max-width: 100px;
+    height: auto;
+  }
+}
+
+/* Mobil */
+@media (max-width: 900px) {
+  .nav {
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    z-index: 300;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  /* FULLSCREEN overlay-menu */
+  .navLinks {
+    position: fixed;
+    inset: 0; /* top:0; right:0; bottom:0; left:0; */
+    background-color: var(--white);
+    display: none; /* skjult som udgangspunkt */
+    flex-direction: column;
+    justify-content: center; /* midt på skærmen */
+    align-items: center;
+    gap: 32px;
+    padding: 0 24px;
+    z-index: 200;
+  }
+
+  /* Når checkbox er checked -> vis overlay */
+  .navToggle:checked ~ .navLinks {
+    display: flex;
+  }
+
+  .navLink {
+    border-radius: 0; /* ingen pillform i overlay */
+    font-size: clamp(
+      18px,
+      5vw,
+      24px
+    ); /* større på mobil, men stadig responsiv */
+    padding: 12px 0;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border-bottom: 1px solid var(--black); /* linjen under hvert punkt */
+    background-color: transparent;
+  }
+
+  .navLink:hover {
+    background-color: transparent;
+    color: var(--black);
+  }
+
+  /* Booking skal stadig have “knap”-look, men med linje under */
+  .booking {
+    background-color: transparent;
+    color: var(--black);
+  }
+
+  .logo {
+    max-width: 90px;
+    height: auto;
+  }
+}

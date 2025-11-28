@@ -1,141 +1,143 @@
 .page {
-  --background: #fafafa;
-  --foreground: #fff;
-
-  --text-primary: #000;
-  --text-secondary: #666;
-
-  --button-primary-hover: #383838;
-  --button-secondary-hover: #f2f2f2;
-  --button-secondary-border: #ebebeb;
-
-  display: flex;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-geist-sans);
-  background-color: var(--background);
+  margin-top: 122px;
 }
 
-.main {
-  display: flex;
-  min-height: 100vh;
+.heroImg {
   width: 100%;
-  max-width: 800px;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  background-color: var(--foreground);
-  padding: 120px 60px;
+  max-width: 1900px;
+  height: auto;
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  gap: 24px;
-}
-
-.intro h1 {
-  max-width: 320px;
-  font-size: 40px;
-  font-weight: 600;
-  line-height: 48px;
-  letter-spacing: -2.4px;
-  text-wrap: balance;
-  color: var(--text-primary);
-}
-
-.intro p {
-  max-width: 440px;
-  font-size: 18px;
-  line-height: 32px;
-  text-wrap: balance;
-  color: var(--text-secondary);
-}
-
-.intro a {
-  font-weight: 500;
-  color: var(--text-primary);
-}
-
-.ctas {
-  display: flex;
-  flex-direction: row;
+.heroWrapper {
+  position: relative;
   width: 100%;
-  max-width: 440px;
-  gap: 16px;
-  font-size: 14px;
 }
 
-.ctas a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  padding: 0 16px;
-  border-radius: 128px;
-  border: 1px solid transparent;
-  transition: 0.2s;
-  cursor: pointer;
-  width: fit-content;
+.heroContent {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  color: white;
+}
+
+.heroContent h1 {
+  font-size: clamp(28px, 4vw, 56px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+
+.heroContent p {
+  font-size: clamp(16px, 1.4vw, 22px);
+  margin-bottom: 50px;
+  max-width: 80%;
+  line-height: 1.5;
+}
+
+.bookCta {
+  display: inline-block;
+  background-color: var(--brown);
+  padding: 16px 28px;
+  border-radius: 10px;
+  color: white;
   font-weight: 500;
+  text-decoration: none;
+  font-size: clamp(16px, 1.2vw, 20px);
 }
 
-a.primary {
-  background: var(--text-primary);
-  color: var(--background);
-  gap: 8px;
+.bookCta:hover {
+  background-color: #6f6458;
 }
 
-a.secondary {
-  border-color: var(--button-secondary-border);
+.infoSection {
+  padding: 40px clamp(10px, 4vw, 40px);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: clamp(12px, 6vw, 80px);
+  justify-content: center;
+  text-align: center;
 }
 
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
+.infoItem {
+  white-space: nowrap;
+}
+
+.infoItem h2 {
+  font-size: clamp(14px, 3vw, 64px);
+  margin-bottom: 10px;
+}
+
+.infoItem p {
+  font-size: clamp(10px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.infoDivider {
+  width: 2px;
+  height: clamp(40px, calc(1em + 5vw), 90px);
+  background-color: #000;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1240px) {
+  .page {
+    margin-top: 94px;
+  }
+}
+
+@media (max-width: 900px) {
+  .page {
+    margin-top: 78px;
   }
 
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
+  .heroContent h1 {
+    margin-bottom: 30px;
+  }
+
+  .heroContent p {
+    margin-bottom: 30px;
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 696px) {
+  .heroContent p {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1110px) {
+  .heroContent p {
+    max-width: 60%;
   }
 }
 
 @media (max-width: 600px) {
-  .main {
-    padding: 48px 24px;
+  .heroContent {
+    top: 10%;
+    left: 5%;
+  }
+  .heroContent h1 {
+    margin-bottom: 10px;
+    font-size: 22px;
   }
 
-  .intro {
-    gap: 16px;
+  .heroContent p {
+    max-width: 60%;
+    margin-bottom: 16px;
+    font-size: 14px;
   }
 
-  .intro h1 {
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -1.92px;
+  .bookCta {
+    padding: 10px 20px;
+    font-size: 14px;
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .logo {
-    filter: invert();
-  }
-
-  .page {
-    --background: #000;
-    --foreground: #000;
-
-    --text-primary: #ededed;
-    --text-secondary: #999;
-
-    --button-primary-hover: #ccc;
-    --button-secondary-hover: #1a1a1a;
-    --button-secondary-border: #1a1a1a;
+@media (max-width: 500px) {
+  .infoSection {
+    gap: 10px;
+    padding: 20px;
   }
 }
