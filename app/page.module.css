@@ -133,6 +133,10 @@
     padding: 10px 20px;
     font-size: 14px;
   }
+
+  .infoDivider {
+    width: 1px;
+  }
 }
 
 @media (max-width: 500px) {
