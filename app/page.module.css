@@ -1,3 +1,5 @@
+/* Hero sektion */
+
 .page {
   margin-top: 122px;
 }
@@ -21,33 +23,35 @@
 }
 
 .heroContent h1 {
-  font-size: clamp(28px, 4vw, 56px);
+  font-size: clamp(28px, 5vw, 70px);
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 50px;
 }
 
 .heroContent p {
-  font-size: clamp(16px, 1.4vw, 22px);
+  font-size: clamp(16px, 2vw, 32px);
   margin-bottom: 50px;
-  max-width: 80%;
+  max-width: 65%;
   line-height: 1.5;
 }
 
 .bookCta {
   display: inline-block;
   background-color: var(--brown);
-  padding: 16px 28px;
+  padding: 20px 28px;
   border-radius: 10px;
   color: white;
   font-weight: 500;
   text-decoration: none;
-  font-size: clamp(16px, 1.2vw, 20px);
+  font-size: clamp(16px, 2vw, 32px);
 }
 
 .bookCta:hover {
   background-color: #6f6458;
 }
+
+/* Info med statistikker sektion */
 
 .infoSection {
   padding: 40px clamp(10px, 4vw, 40px);
@@ -80,6 +84,123 @@
   flex-shrink: 0;
 }
 
+/* Sektion med Marks baggrund og certificeringer */
+
+.markSection {
+  display: flex;
+  align-items: center;
+  gap: clamp(32px, 5vw, 80px);
+  width: 100%;
+  justify-content: center;
+  background-color: var(--grey);
+}
+
+.markSection h1 {
+  font-size: clamp(28px, 4vw, 56px);
+  margin-bottom: 24px;
+}
+
+.titleBrown {
+  color: var(--brown);
+}
+
+.markSectionLeft {
+  flex: 1 1 50%;
+  padding: 0 clamp(20px, 4vw, 80px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(8px, 1.5vw, 16px);
+}
+
+.markSectionLeft p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+  margin-top: 25px;
+}
+
+.textMobile {
+  display: none;
+}
+
+/* Billedet af Mark */
+
+.markImg {
+  flex: 0 1 35%;
+  width: 100%;
+  max-width: clamp(260px, 40vw, 652px);
+  height: auto;
+  object-fit: cover;
+}
+
+/* Ikoner */
+
+.certficates {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: clamp(16px, 4vw, 100px);
+  margin-top: clamp(16px, 3vw, 32px);
+  text-align: center;
+  margin-bottom: clamp(16px, 3vw, 32px);
+}
+
+.certficates > div {
+  flex: 1 1 minmax(120px, 1fr);
+}
+
+.certficateImg {
+  width: clamp(40px, 6vw, 80px);
+  height: auto; /* bevarer proportioner */
+}
+
+.certficates > div p {
+  margin-top: 6px;
+  font-size: clamp(11px, 1.1vw, 14px);
+}
+
+/* Sektion om Marks tilgang */
+
+.listSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(40px, 10vw, 180px);
+  padding: clamp(30px, 1vw, 80px) clamp(16px, 4vw, 80px);
+  max-width: 1400px;
+  margin: 40px auto 80px;
+}
+
+.listSection p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.listSection h1 {
+  font-size: clamp(22px, 3vw, 36px);
+  margin-bottom: clamp(16px, 3vw, 50px);
+  line-height: 1.3;
+}
+
+.listItemsLeft,
+.listItemsRight {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 2vw, 15px);
+  margin-top: 30px;
+  border-bottom: 1px solid var(--black);
+}
+
+.listSectionSubtitle {
+  font-size: clamp(18px, 3vw, 30px);
+  margin-bottom: 50px;
+  padding: 0 clamp(16px, 5vw, 100px);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Media queries */
+
 @media (max-width: 1240px) {
   .page {
     margin-top: 94px;
@@ -99,15 +220,19 @@
     margin-bottom: 30px;
     max-width: 60%;
   }
+
+  .bookCta {
+    padding: 16px 28px;
+  }
 }
 
-@media (max-width: 696px) {
+@media (max-width: 1110px) {
   .heroContent p {
     max-width: 60%;
   }
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 696px) {
   .heroContent p {
     max-width: 60%;
   }
@@ -143,5 +268,168 @@
   .infoSection {
     gap: 10px;
     padding: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .markSection {
+    gap: 48px;
+  }
+
+  .markSection h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .certficates {
+    gap: 24px;
+  }
+
+  .markSectionLeft {
+    flex: 1 1 100%;
+  }
+
+  .textDesktop {
+    display: none;
+  }
+
+  .textMobile {
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .markSection {
+    gap: 32px;
+    padding: 32px 20px 40px;
+  }
+
+  .markSectionLeft p {
+    font-size: 15px;
+  }
+
+  .markImg {
+    display: none;
+  }
+}
+
+/* Mobil: stack – billede over teksten, ikoner centreres og skaleres ned */
+@media (max-width: 700px) {
+  .markSectionLeft {
+    max-width: 90%;
+  }
+
+  .markImg {
+    max-width: 200px;
+  }
+
+  .certficates {
+    justify-content: center;
+  }
+
+  .certficates > div {
+    flex: 1 1 10%; /* ca. 2 ikoner pr. række */
+  }
+
+  .markSection h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Lille mobil: mindre tekst og ikoner */
+@media (max-width: 500px) {
+  .markSection {
+    padding: 24px 1px 32px;
+  }
+
+  .markSection h1 {
+    font-size: 20px;
+    margin-bottom: 1px;
+  }
+
+  .markSectionLeft p {
+    font-size: 13px;
+  }
+
+  .certficateImg {
+    width: 40px;
+  }
+
+  .certficates > div p {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 950px) {
+  .listSection {
+    gap: clamp(24px, 10vw, 80px);
+    padding: 40px 50px;
+    margin: 0;
+  }
+
+  .listSection h1 {
+    font-size: 25px;
+  }
+
+  .listSectionSubtitle {
+    font-size: 20px;
+  }
+}
+
+/* ---------- Mobil (STACK) ---------- */
+@media (max-width: 700px) {
+  .listSection {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .listSection h1 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .listItemsLeft,
+  .listItemsRight {
+    gap: 12px;
+    width: 400px;
+  }
+
+  .listSectionSubtitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+/* ---------- Lille mobil ---------- */
+@media (max-width: 500px) {
+  .listSection h1 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .listSection p {
+    font-size: 14px;
+  }
+
+  .listSectionSubtitle {
+    font-size: 20px;
+  }
+
+  .listItemsLeft,
+  .listItemsRight {
+    width: 300px;
+  }
+
+  .listItemsLeft img,
+  .listItemsRight img {
+    width: 14px;
+    height: auto;
+  }
+
+  .listSection {
+    padding: 50px 12px;
+    gap: 60px;
   }
 }
