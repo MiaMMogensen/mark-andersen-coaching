@@ -58,6 +58,184 @@ export default function Home() {
           <p>Års erfaring</p>
         </div>
       </section>
+
+      <section className={styles.markSection}>
+        <div className={styles.markSectionLeft}>
+          <h1>
+            <span className={styles.titleBrown}>Hvem er jeg</span> – og hvordan
+            kan jeg hjælpe dig med dit vægttab?
+          </h1>
+
+          <div className={styles.textDesktop}>
+            <p>
+              Mit navn er Mark, og jeg hjælper helt almindelige mennesker med at
+              opnå ualmindeligt gode resultater.
+            </p>
+            <p>
+              Jeg er uddannet personlig træner, vanecoach og kostvejleder, med
+              vægttab som mit speciale. Gennem årene har jeg hjulpet hundredvis
+              af kvinder med at få styr på vægten, uden at skulle leve efter
+              stramme kostplaner, forbud eller en urealistisk perfektionisme.
+            </p>
+            <p>
+              Jeg tror ikke på quick fixes. Jeg tror ikke på
+              alt-eller-intet-løsninger
+            </p>
+            <p>
+              Jeg tror på hverdagen. På balance. På at skabe løsninger, der
+              passer ind i dit liv – også når det hele roder, presser eller
+              trækker tænder ud.
+            </p>
+          </div>
+          <div className={styles.textMobile}>
+            <p>
+              Mit navn er Mark, og jeg er uddannet personlig træner,
+              kostvejleder og vanecoach med speciale i vægttab.
+            </p>
+            <p>
+              Jeg hjælper helt almindelige mennesker med at skabe resultater,
+              der holder - uden stramme kostplaner, forbud eller
+              alt-eller-intet-tilgang.
+            </p>
+          </div>
+          <div className={styles.certficates}>
+            <div>
+              <Image
+                src="/img/weight.png"
+                alt="Håndvægt"
+                width={80}
+                height={80}
+                className={styles.certficateImg}
+              />
+              <p>Personlig træner</p>
+            </div>
+            <div>
+              <Image
+                src="/img/apple.png"
+                alt="Æble"
+                width={80}
+                height={80}
+                className={styles.certficateImg}
+              />
+              <p>Kostvejleder</p>
+            </div>
+            <div>
+              <Image
+                src="/img/person.png"
+                alt="Vanecoach"
+                width={80}
+                height={80}
+                className={styles.certficateImg}
+              />
+              <p>Vanecoach</p>
+            </div>
+            <div>
+              <Image
+                src="/img/badge.png"
+                alt="Certificeret"
+                width={80}
+                height={80}
+                className={styles.certficateImg}
+              />
+              <p>Speciale i vægttab</p>
+            </div>
+          </div>
+        </div>
+        <Image
+          src="/img/mark.png"
+          alt="Mark Andersen"
+          width={652}
+          height={902}
+          className={styles.markImg}
+        />
+      </section>
+
+      <section>
+        <div className={styles.listSection}>
+          <div>
+            <h1>Min tilgang bygger på:</h1>
+            <div className={styles.listItemsLeft}>
+              <Image
+                src="/img/checkmark.png"
+                alt="Flueben"
+                width={15}
+                height={10}
+              />
+              <p>Balance frem for perfektion</p>
+            </div>
+            <div className={styles.listItemsLeft}>
+              <Image
+                src="/img/checkmark.png"
+                alt="Flueben"
+                width={15}
+                height={10}
+              />
+              <p>Struktur og simple vaner</p>
+            </div>
+            <div className={styles.listItemsLeft}>
+              <Image
+                src="/img/checkmark.png"
+                alt="Flueben"
+                width={15}
+                height={10}
+              />
+              <p>Løsninger der holder i hverdagen</p>
+            </div>
+            <div className={styles.listItemsLeft}>
+              <Image
+                src="/img/checkmark.png"
+                alt="Flueben"
+                width={15}
+                height={10}
+              />
+              <p>Ingen forbud eller quickfixes</p>
+            </div>
+          </div>
+          <div>
+            <h1>Jeg hjælper ofte mennesker der:</h1>
+            <div className={styles.listItemsRight}>
+              <Image
+                src="/img/person-small.png"
+                alt="Flueben"
+                width={16}
+                height={16}
+              />
+              <p>Har prøvet mange kure uden varigt resultat</p>
+            </div>
+            <div className={styles.listItemsRight}>
+              <Image
+                src="/img/person-small.png"
+                alt="Flueben"
+                width={16}
+                height={16}
+              />
+              <p>Har en travl hverdag med arbejde og familie</p>
+            </div>
+            <div className={styles.listItemsRight}>
+              <Image
+                src="/img/person-small.png"
+                alt="Flueben"
+                width={16}
+                height={16}
+              />
+              <p>Oplever svingende motivation</p>
+            </div>
+            <div className={styles.listItemsRight}>
+              <Image
+                src="/img/person-small.png"
+                alt="Flueben"
+                width={16}
+                height={16}
+              />
+              <p>Føler frustration eller dårlig samvittighed</p>
+            </div>
+          </div>
+        </div>
+        <h2 className={styles.listSectionSubtitle}>
+          Mit mål er at gøre vægttab simpelt, overskueligt og muligt i netop din
+          hverdag.
+        </h2>
+      </section>
     </div>
   );
 }
