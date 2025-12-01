@@ -255,6 +255,44 @@
   white-space: nowrap;
 }
 
+/* Sådan fungerer et forløb sektion */
+
+.courseSection {
+  padding: clamp(20px, 10vw, 70px) clamp(16px, 7vw, 100px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(10px, 10vw, 15px);
+}
+
+.courseItem {
+  display: flex;
+  gap: clamp(12px, 2vw, 15px);
+  margin-top: 30px;
+}
+
+.courseSection h1 {
+  color: var(--black);
+  font-size: clamp(28px, 4vw, 56px);
+}
+
+.courseSection p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.courseSection h3 {
+  font-size: clamp(18px, 2vw, 24px);
+}
+
+.courseSection .bookCta {
+  width: clamp(200px, 40vw, 400px);
+  text-align: center;
+}
+
+.courseSectionCtaTitle {
+  margin-top: 60px;
+}
+
 /* Media queries */
 
 @media (max-width: 1240px) {
