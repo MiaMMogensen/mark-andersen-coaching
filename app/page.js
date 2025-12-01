@@ -311,6 +311,37 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section className={styles.courseSection}>
+        <h1>Sådan fungerer et forløb</h1>
+        <div className={styles.courseItem}>
+          <Image src="/img/1.png" alt="1" width={25} height={23} />
+          <h3>Gratis samtale</h3>
+        </div>
+        <p>Vi snakker om dine mål og udfordringer - helt uforpligtende.</p>
+        <div className={styles.courseItem}>
+          <Image src="/img/2.png" alt="2" width={25} height={23} />
+          <h3>Personlig plan</h3>
+        </div>
+        <p>
+          Du får en realistisk plan, der passer til dit liv. Ingen forbud, ingen
+          ekstrem diæt.
+        </p>
+        <div className={styles.courseItem}>
+          <Image src="/img/3.png" alt="3" width={25} height={23} />
+          <h3>Opfølgning</h3>
+        </div>
+        <p>
+          Jeg hjælper dig med at holde fast, justerer planen og støtter dig
+          løbende.
+        </p>
+        <h1 className={styles.courseSectionCtaTitle}>
+          Klar til at tage det første skridt?
+        </h1>
+        <Link href="booking" className={styles.bookCta}>
+          Book en gratis samtale
+        </Link>
+      </section>
     </div>
   );
 }
