@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "bliv-mæt-og-tab-dig-samtidig",
+    "title": "Bliv mæt og tab dig samtidig",
+    "excerpt": "Volumen, grønt og protein gør vægttab lettere. Lær hvorfor større måltider giver færre cravings og bedre resultater.",
+    "category": "Kost",
+    "image": "/img/tip1.png"
+  },
+  {
+    "slug": "hvorfor-virker-det-ikke-selv-når-du-har-styr-på-kosten",
+    "title": "Hvorfor virker det ikke selv når du har styr på kosten",
+    "excerpt": "Mange ved præcis, hvad de bør spise - men får det alligevel ikke til at fungere. Her er hvorfor.",
+    "category": "Kost",
+    "image": "/img/tip2.png"
+  },
+  {
+    "slug": "4-forskellige-bud-paa-200-kcal-fra-kulhydrater",
+    "title": "4 forskellige bud på 200 kcal fra kulhydrater ",
+    "excerpt": "Mange tror kulhydrater skal fjernes, men problemet er sjældent dem - det er mængden.",
+    "category": "Kost",
+    "image": "/img/tip3.png"
+  },
+  {
+    "slug": "hvorfor-dine-vaner-faar-dig-til-at-spise",
+    "title": "Hvorfor dine vaner får dig til at spise",
+    "excerpt": "Overspisning handler sjældent om mad, men om vaner, følelser og miljø. Her er de typiske årsager.",
+    "category": "Vaner",
+    "image": "/img/tip4.png"
+  },
+  {
+    "slug": "sådan-virker-styrketræning-i-et-vægttab",
+    "title": "Sådan virker styrketræning i et vægttab",
+    "excerpt": "Styrketræning giver synlige resultater i et vægttab, selv når vægten står stille. Her er grunden.",
+    "category": "Træning",
+    "image": "/img/tip5.png"
+  },
+  {
+    "slug": "ikke-identitet-bare-vaner",
+    "title": "Ikke identitet - bare vaner",
+    "excerpt": "Hvis du føler, du altid spiser hele posen, handler det ikke om viljestyrke - men om automatiske vaner.",
+    "category": "Vaner",
+    "image": "/img/tip6.png"
+  }
+]

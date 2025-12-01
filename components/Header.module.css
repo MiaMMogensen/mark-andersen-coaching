@@ -55,11 +55,13 @@
 }
 
 .burger {
-  display: none; /* kun på mobil */
+  display: none;
   flex-direction: column;
   gap: 5px;
   cursor: pointer;
   z-index: 201;
+  background: none;
+  border: none;
 }
 
 .burger span {
@@ -70,25 +72,20 @@
   transition: transform 0.2s, opacity 0.2s;
 }
 
-.navToggle {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
-
-.navToggle:checked + .burger span:nth-child(1) {
+.burgerOpen span:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
 
-.navToggle:checked + .burger span:nth-child(2) {
+.burgerOpen span:nth-child(2) {
   opacity: 0;
 }
 
-.navToggle:checked + .burger span:nth-child(3) {
+.burgerOpen span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/* Tablet */
+/* Media queries */
+
 @media (max-width: 1240px) {
   .nav {
     padding: 15px 30px;
@@ -108,7 +105,6 @@
   }
 }
 
-/* Mobil */
 @media (max-width: 900px) {
   .nav {
     padding: 10px 20px;
@@ -122,38 +118,33 @@
     display: flex;
   }
 
-  /* FULLSCREEN overlay-menu */
   .navLinks {
     position: fixed;
-    inset: 0; /* top:0; right:0; bottom:0; left:0; */
+    inset: 0;
     background-color: var(--white);
-    display: none; /* skjult som udgangspunkt */
+    display: none;
     flex-direction: column;
-    justify-content: center; /* midt på skærmen */
+    justify-content: center;
     align-items: center;
     gap: 32px;
     padding: 0 24px;
     z-index: 200;
   }
 
-  /* Når checkbox er checked -> vis overlay */
-  .navToggle:checked ~ .navLinks {
+  .navLinksOpen {
     display: flex;
   }
 
   .navLink {
-    border-radius: 0; /* ingen pillform i overlay */
-    font-size: clamp(
-      18px,
-      5vw,
-      24px
-    ); /* større på mobil, men stadig responsiv */
+    border-radius: 0;
+    font-size: clamp(18px, 5vw, 24px);
     padding: 12px 0;
     width: 100%;
     max-width: 400px;
     text-align: center;
-    border-bottom: 1px solid var(--black); /* linjen under hvert punkt */
+    border-bottom: 1px solid var(--black);
     background-color: transparent;
+    color: var(--black);
   }
 
   .navLink:hover {
@@ -161,9 +152,16 @@
     color: var(--black);
   }
 
-  /* Booking skal stadig have “knap”-look, men med linje under */
   .booking {
     background-color: transparent;
+    color: var(--black);
+  }
+
+  .active {
+    background-color: transparent;
+  }
+
+  .navLink.active {
     color: var(--black);
   }
 
