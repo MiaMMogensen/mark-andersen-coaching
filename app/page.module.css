@@ -193,10 +193,66 @@
 
 .listSectionSubtitle {
   font-size: clamp(18px, 3vw, 30px);
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   padding: 0 clamp(16px, 5vw, 100px);
   text-align: center;
   line-height: 1.4;
+}
+
+/* CTA sektion */
+
+.ctaSection {
+  background-color: var(--grey);
+  padding-bottom: 100px;
+}
+
+.ctaSection h1 {
+  color: var(--black);
+  font-size: clamp(28px, 4vw, 56px);
+  padding: clamp(20px, 10vw, 80px) clamp(16px, 7vw, 100px);
+}
+
+.ctaSectionItems {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: clamp(30px, 5vw, 0) clamp(16px, 4vw, 80px);
+  gap: clamp(12px, 10vw, 150px);
+  margin: 12px clamp(10px, 4vw, 60px);
+}
+
+.ctaSectionImg {
+  display: block;
+  flex: 0 1 35%;
+  width: 100%;
+  max-width: clamp(260px, 40vw, 508px);
+  height: auto;
+  object-fit: cover;
+}
+
+.ctaSectionImgMobile {
+  display: none;
+}
+
+.ctaItem {
+  position: relative;
+  width: fit-content;
+}
+
+.ctaSectionText {
+  position: absolute;
+  bottom: 30px; /* hvor højt teksten skal være */
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 255, 255);
+  font-size: clamp(16px, 1.4vw, 24px);
+  pointer-events: none;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 12px clamp(10px, 4vw, 60px);
+  color: var(--black);
+  text-align: center;
+  white-space: nowrap;
 }
 
 /* Media queries */
@@ -415,6 +471,7 @@
 
   .listSectionSubtitle {
     font-size: 20px;
+    margin-bottom: 50px;
   }
 
   .listItemsLeft,
@@ -431,5 +488,56 @@
   .listSection {
     padding: 50px 12px;
     gap: 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .ctaSection h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .ctaSection {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 750px) {
+  .ctaSectionText {
+    padding: 12px 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ctaSectionItems {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .ctaSectionImg {
+    width: 276px;
+    height: auto;
+  }
+  .ctaSectionImgMobile {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .ctaSectionImg {
+    display: none;
+  }
+
+  .ctaSection h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 30px 30px 20px 30px;
+  }
+
+  .ctaSectionText {
+    padding: 12px 70px;
+    bottom: 20px;
   }
 }

@@ -236,6 +236,81 @@ export default function Home() {
           hverdag.
         </h2>
       </section>
+
+      <section className={styles.ctaSection}>
+        <h1>
+          Tag det næste skridt mod dine{" "}
+          <span className={styles.titleBrown}> mål</span>, og start din sundere
+          hverdag her
+        </h1>
+        <div className={styles.ctaSectionItems}>
+          <div className={styles.ctaItem}>
+            <Link href="/opskrifter">
+              <Image
+                src="/img/recipe-cta.png"
+                alt="Find opskrifter"
+                width={346}
+                height={508}
+                className={styles.ctaSectionImg}
+              />
+            </Link>
+            <Link href="/opskrifter">
+              <Image
+                src="/img/recipe-cta-mobile.png"
+                alt="Find opskrifter"
+                width={276}
+                height={188}
+                className={styles.ctaSectionImgMobile}
+              />
+            </Link>
+            <p className={styles.ctaSectionText}>Find opskrifter</p>
+          </div>
+
+          <div className={styles.ctaItem}>
+            <Link href="/tips">
+              <Image
+                src="/img/tips-cta.png"
+                alt="Få tips og råd"
+                width={346}
+                height={508}
+                className={styles.ctaSectionImg}
+              />
+            </Link>
+            <Link href="/tips">
+              <Image
+                src="/img/tips-cta-mobile.png"
+                alt="Få tips og tåd"
+                width={276}
+                height={188}
+                className={styles.ctaSectionImgMobile}
+              />
+            </Link>
+            <p className={styles.ctaSectionText}>Få tips og råd</p>
+          </div>
+
+          <div className={styles.ctaItem}>
+            <Link href="/coaching">
+              <Image
+                src="/img/coaching-cta.png"
+                alt="Coachingforløb"
+                width={346}
+                height={508}
+                className={styles.ctaSectionImg}
+              />
+            </Link>
+            <Link href="/coaching">
+              <Image
+                src="/img/coaching-cta-mobile.png"
+                alt="Coachingforløb"
+                width={276}
+                height={188}
+                className={styles.ctaSectionImgMobile}
+              />
+            </Link>
+            <p className={styles.ctaSectionText}>Coachingforløb</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
