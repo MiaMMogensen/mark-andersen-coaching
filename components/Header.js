@@ -49,7 +49,7 @@ export default function Header() {
         <Link
           href="/tips"
           className={`${styles.navLink} ${
-            pathname === "/tips" ? styles.active : ""
+            pathname.startsWith("/tips") ? styles.active : ""
           }`}
           onClick={handleClose}
         >

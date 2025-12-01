@@ -1,44 +1,151 @@
 [
   {
-    "slug": "bliv-mæt-og-tab-dig-samtidig",
+    "slug": "bliv-maet-og-tab-dig-samtidig",
     "title": "Bliv mæt og tab dig samtidig",
     "excerpt": "Volumen, grønt og protein gør vægttab lettere. Lær hvorfor større måltider giver færre cravings og bedre resultater.",
     "category": "Kost",
-    "image": "/img/tip1.png"
+    "image": "/img/tip1.png",
+    "contentTop": [
+      "Spis MERE, ikke mindre, hvis du vil tabe dig.",
+      "Ja du læste rigtigt…",
+      "De fleste tror, at vægttab handler om at spise så lidt som muligt!",
+      "MEN…",
+      "Det er faktisk en af de hurtigste veje til ekstrem sult, cravings og kontroltab. Vi plejer at siger, spiser du for lidt, så spiser du bare for meget senere. I stedet lærer vi vores klienter at spise så meget som muligt indenfor de rammer, der stadig giver et kalorieunderskud. Det handler især om volumen.",
+      "To rugbrødsmadder og to stykker kyllinge-pålæg holder dig kun kørende på den korte bane! Fokus på fylde, frugt og grønt, og protein som base på måltiderne. Kombiner det du godt kan lide, med det din krop har godt af!",
+      "Det er ikke enten nachos eller grønt. Det kan også være nachos OG grønt."
+    ],
+    "exampleTitle": "Her er et eksempel på en tallerken med:",
+    "exampleItems": [
+      "Masser af grøntsager",
+      "Grillet kylling",
+      "Toppings og dressing",
+      "En håndfuld knuste tortillachips for crunch og nydelse"
+    ],
+    "contentBottom": [
+      "Når du bygger dine måltider på både nydelse og næring, bliver det nemmere at holde fast – især i længden.",
+      "Frugt og grønt + protein = din stærkeste base på dine måltider i et vægttab.",
+      "Når du lader grøntsager og fugt fylde – og bygger ovenpå med protein – så spiser du dig rigtig mæt og holder dig nemmere kørende længere ad gangen.",
+      "Det handler ikke om at spise mindre… det handler om at spise MERE."
+    ]
   },
   {
     "slug": "hvorfor-virker-det-ikke-selv-når-du-har-styr-på-kosten",
     "title": "Hvorfor virker det ikke selv når du har styr på kosten",
     "excerpt": "Mange ved præcis, hvad de bør spise - men får det alligevel ikke til at fungere. Her er hvorfor.",
-    "category": "Kost",
-    "image": "/img/tip2.png"
+    "category": "Vaner",
+    "image": "/img/tip2.png",
+    "content": [
+      "“Jeg har styr på kosten...“ - men hvorfor lykkes det så ikke med vægttabet?",
+      "Det her er en af de sætninger, jeg hører allermest som coach – og ofte kommer den fra mennesker, der har massevis af viden om mad, kalorier og sundhed.",
+      "Men sagen er: Det er sjældent nok at “have styr på kosten” og det ernæringsfaglige på papiret. For det handler ikke kun om, hvad du ved – men om, hvad du gør.",
+      "Du kan have 100% styr på kalorier og makroer...",
+      "Men hvis du:",
+      "- Spiser for at dulme følelser",
+      "- Belønner dig selv efter en lang dag",
+      "- Spiser for hurtigt eller uden at mærke mæthed",
+      "- Ryger ud af kurs i weekenden",
+      "Så vil resultaterne blive ved med at halte.",
+      "Adfærd og vaner er vejen til forandring.",
+      "Viden om kost er vigtigt - men det er adfærden, der bestemmer, hvad du gør i praksis.",
+      "Hvis du har oplevet at “gøre alt det rigtige”, men stadig ikke føler dig i kontrol… Så er det måske tid til at stoppe med at lede efter den perfekte madplan – og i stedet begynde at arbejde med dig som menneske og den dybereliggende adfærd 🧠",
+      "Hvis du vil lykkes på sigt, så skal du ikke kun regne kalorier, men også:",
+      "🧠 Forstå din adfærd",
+      "🔄 Skabe bæredygtige vaner",
+      "💡 Lære at navigere i de svære situationer",
+      "❤️ Også de dage, hvor livet ikke går efter planen",
+      "💬 Genkender du dig selv i det her?",
+      "Så er du ikke alene – og du er mere end velkommen til at sende mig en besked, hvis du vil høre, hvordan jeg hjælper klienter med præcis det her."
+    ]
   },
   {
     "slug": "4-forskellige-bud-paa-200-kcal-fra-kulhydrater",
     "title": "4 forskellige bud på 200 kcal fra kulhydrater ",
     "excerpt": "Mange tror kulhydrater skal fjernes, men problemet er sjældent dem - det er mængden.",
     "category": "Kost",
-    "image": "/img/tip3.png"
+    "image": "/img/tip3.png",
+    "img": "/img/tip3img.png",
+    "contentTop": [
+      "KULHYDRATER TIL AFTENSMADEN! ❌⛔️😬🫠🤔",
+      "- et emne som fylder meget hos mange.",
+      "Fordi oftest er det det, vi naturligt går til, når vi skal tabe os, altså, går til i den forstand som: lad os fjerne det.",
+      "Hvilket er tanken fordi at… det smager godt, og ting der smager godt, spiser vi ofte meget af, når vi ikke forholder os til vores mad (eller forsøger at begrænse os). Hvilket bringer os til det egentlig problem ved kulhydraterne til aftensmad: For mange af dem.",
+      "Så dét vi gerne vil, det er IKKE at fjerne dem, men i stedet, BEGRÆNSE dem. Reducerer dem, i stedet for at lave en restriktion for dem."
+    ],
+    "exampleTitle": " ",
+    "exampleItems": [
+      "200 kcal fra kartoffelbåde = 160 g fra frost",
+      "200 kcal fra mini tortillas = 70 g",
+      "200 kcal fra pasta = 60 g ukogt",
+      "200 kcal fra hvide ris = 60 g ukogt"
+    ],
+    "contentBottom": [
+      "Så her på tallerkenen ser du 4 bud på 200 kcal, som kommer fra forskellige populære kulhydrats kilder. Ikke fordi 200 kcal er den rigtige mængde, men det kunne være et godt bud på en mængde, på en tallerken, i en ret, hvor der sandsynligvis også er: kød, en fedt-kilde (sauce, dressing, avocado, etc) og grøntager!"
+    ]
   },
   {
     "slug": "hvorfor-dine-vaner-faar-dig-til-at-spise",
     "title": "Hvorfor dine vaner får dig til at spise",
     "excerpt": "Overspisning handler sjældent om mad, men om vaner, følelser og miljø. Her er de typiske årsager.",
     "category": "Vaner",
-    "image": "/img/tip4.png"
+    "image": "/img/tip4.png",
+    "content": [
+      "De 6 mest almindelige grunde til at du spiser – UDEN at være sulten ⬇️",
+      "1️⃣ Automatspisning - vaner og ritualer. Når vanen især styrer. Har du nogensinde taget snacks frem uden at tænke over det – måske bare fordi det er “det, du plejer”? Det sker ofte foran TV’et, i bilen, på kontoret eller efter maden. Det er ikke altid “sult”, der styrer i denne kategori.",
+      "2️⃣ Følelserne får overtaget. Stress, kedsomhed, uro, ensomhed… Mad kan blive en slags dulmende strategi. Ikke fordi kroppen beder om energi – men fordi hovedet ønsker ro. Det kan virke kortvarigt – men det løser sjældent det, der egentlig er galt.",
+      "3️⃣ Sult og mæthedsregulering. Du har måske ikke lært at lytte til kroppen. Det lyder simpelt: Spis når du er sulten – stop når du er mæt. Men mange af os har ikke længere kontakt med de signaler. Vi spiser fordi det er “tid til mad”, eller fordi det passer ind – ikke fordi vi altid er opmærksomme på vores sult og mæthed.",
+      "4️⃣ Sociale normer og regler. Omgivelserne presser måske (ubevidst). Til fødselsdage, middage eller hyggeaftener er det normalt for mange at spise mere – ikke fordi du har brug for det, men fordi stemningen, selskabet og maden i sig selv inviterer til det. Det føles hyggeligt, men det kan blive en glidebane.",
+      "5️⃣ Restriktioner og forbud. Restriktioner skaber øget lyst for mange. Jo mere du prøver at undgå visse fødevarer, jo mere vokser trangen. Det er paradoksalt – men når noget føles “ulovligt”, bliver det endnu mere tillokkende. Og så ender du med at gå all in – og føle dig ude af kontrol.",
+      "6️⃣ Miljø og tilgængelighed. “Hvis du har det, så æder du det” - for rigtig mange har miljø og tilgængelighed en kæmpe stor magt ifht de valg vi træffer. Derfor anbefales det ofte at “putte flere ting ind i sit miljø af de ting vi gerne vil spise mere af og færre ting af de ting vi gerne vil undgå.",
+      "I rigtig mange eksempler kan punkterne også overlappe hinanden."
+    ]
   },
   {
     "slug": "sådan-virker-styrketræning-i-et-vægttab",
     "title": "Sådan virker styrketræning i et vægttab",
-    "excerpt": "Styrketræning giver synlige resultater i et vægttab, selv når vægten står stille. Her er grunden.",
+    "excerpt": "Vægten fortæller ikke hele sandheden. Lær hvorfor styrketræning stadig virker - også når tallene står stille.",
     "category": "Træning",
-    "image": "/img/tip5.png"
+    "image": "/img/tip5.png",
+    "content": [
+      "Du er begyndt på dit vægttab… ✅",
+      "Du har læst og hørt at styrketræning er godt når man vil tabe sig… ✅ (det er i øvrigt også korrekt).",
+      "Men når vi styrketræner som led i et vægttab er der nogle nuancer at have med, så man ikke snyder sig selv eller ender demotiveret…",
+      "1) Styrketræning er super vigtigt for opbygning og vedligehold af muskelmasse. Samtidig kan mængden af muskelmasse betyde meget for det visuelle, altså hvordan du ender med at se ud efter vægttabet.",
+      "Men…. Er du ny og starter med at styrketræne kan du potentielt også ende i en situation hvor du både bygger muskelmasse og smider fedt på samme tid.",
+      "Taber du 300-400 g og bygger tilsvarende 200-300-400 g muskelmasse over en periode kan din vægt potentielt gå i nul… eller kun kreditere dig med vægttab på et par hundrede gram og det føles demotiverende for mange, hvis ikke de kender årsagen.",
+      "Du kan altså godt opleve FEDTTAB…. Selvom du ikke hele tiden oplever vægttab.",
+      "Vægten skal naturligvis falde OVER TID… men på den lidt kortere bane kan du med fordel måle dig på flere parametre. Tøj størrelse, centimeter, billeder, bælte hul osv.",
+      "Derudover er en anden og meget vigtig deltalje at…",
+      "Styrketræning forbrænder sandsynligvis langt færre kalorier end du regner med. Er din primære motivation for træning altså selve FORBRÆNDINGEN, så ender du som oftest ingen vegne, da det langt fra er det mest effektive sted at sætte ind forbrændingswise, og du alligevel brænder ud.",
+      "Træn for at blive stærkere. Funktionsdygtig. Få mere muskelmasse på kroppen. Fordi du bare godt kan lide det, og mindre fordi du tror det forvandler din forbrænding til det højere ✅"
+    ]
   },
   {
     "slug": "ikke-identitet-bare-vaner",
     "title": "Ikke identitet - bare vaner",
     "excerpt": "Hvis du føler, du altid spiser hele posen, handler det ikke om viljestyrke - men om automatiske vaner.",
     "category": "Vaner",
-    "image": "/img/tip6.png"
+    "image": "/img/tip6.png",
+    "img": "/img/tip6img.png",
+    "contentTop": [
+      "Du er sådan en der ikke kan åbne posen uden at spise det hele...",
+      "Hvor mange gange har du ikke tænkt eller sagt den sætning til dig selv?",
+      "Og jo flere gange du gentager den, jo mere sand føles den. Men sandheden er: det er ikke din identitet! Det er dine vaner",
+      "Vaner er automatiske handlinger skabt af ritualer, rutiner og gentagelser. Miljøet omkring dig (fx en åben pose på bordet) gør det endnu sværere.",
+      "Du kan heldigvis skabe nye ritualer og nye stier.",
+      "Med små skridt -> gentagelser -> nye vaner.",
+      "Jeg plejer at sige at en vane kan ses som en sti i græsset. Jo flere gange du har gået der, jo tydeligere er stien!"
+    ],
+    "exampleTitle": " ",
+    "exampleItems": [
+      "Gammel vane: Gået ruten mange gange",
+      "Ny vane: Helt ny og utydelig vej"
+    ],
+    "contentBottom": [
+      "Gammel vane: Gået ruten mange gange",
+      "Ny vane: Helt ny og utydelig vej",
+      "Hver gang du gør det samme, bliver den gamle sti stærkere. Det er derfor, det føles som om, at posen altid skal være tom. Ikke fordi du mangler viljestyrke, men mere fordi du indtil nu kun har kendt til én vej.",
+      "Du er ikke 'sådan en' der enten har fået gaven eller ikke har.",
+      "Du er et menneske, der kan bygge nye vaner og nye stier i græsset."
+    ]
   }
 ]
