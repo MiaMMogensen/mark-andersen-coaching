@@ -27,6 +27,7 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 50px;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
 .heroContent p {
@@ -34,9 +35,11 @@
   margin-bottom: 50px;
   max-width: 65%;
   line-height: 1.5;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-.bookCta {
+.bookCta,
+.bookCtaBottom {
   display: inline-block;
   background-color: var(--brown);
   padding: 20px 28px;
@@ -45,9 +48,15 @@
   font-weight: 500;
   text-decoration: none;
   font-size: clamp(16px, 2vw, 32px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
 
-.bookCta:hover {
+.bookCtaBottom {
+  box-shadow: none;
+}
+
+.bookCta:hover,
+.bookCtaBottom:hover {
   background-color: #6f6458;
 }
 
@@ -285,7 +294,7 @@
   font-size: clamp(18px, 2vw, 24px);
 }
 
-.courseSection .bookCta {
+.courseSection .bookCtaBottom {
   width: clamp(200px, 40vw, 400px);
   text-align: center;
 }
@@ -391,6 +400,11 @@
 
   .bookCta {
     padding: 16px 28px;
+  }
+
+  .bookCtaBottom {
+    padding: 15px 0px;
+    margin-bottom: 20px;
   }
 
   .markSection {
@@ -503,8 +517,8 @@
   }
 
   .bookCta {
-    padding: 10px 0px;
-    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
   }
 
   .infoDivider {
