@@ -387,6 +387,23 @@ export default function Home() {
           <h2 className={styles.courseSectionCtaTitle}>
             Klar til at tage det første skridt?
           </h2>
+
+          <div className={styles.mapSection}>
+            <p>
+              Her finder du mig. Kig forbi og lad os tage den første snak om
+              dine mål og muligheder.
+            </p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2220.1778598670203!2d10.21220997733477!3d56.188603573248685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3e4a4a350955%3A0x668c7d8eb81bead9!2sFrijsenborgvej%205A%2C%208240%20Risskov!5e0!3m2!1sda!2sdk!4v1764681886860!5m2!1sda!2sdk"
+              loading="lazy"
+              width={600}
+              height={450}
+              allowFullScreen=""
+              referrerPolicy="no-referrer-when-downgrade"
+              className={styles.mapIframe}
+            ></iframe>
+          </div>
+
           <Link href="/booking" className={styles.bookCta}>
             Book en gratis samtale
           </Link>
