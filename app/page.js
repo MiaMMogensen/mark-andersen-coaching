@@ -404,7 +404,7 @@ export default function Home() {
             ></iframe>
           </div>
 
-          <Link href="/booking" className={styles.bookCta}>
+          <Link href="/booking" className={styles.bookCtaBottom}>
             Book en gratis samtale
           </Link>
         </section>

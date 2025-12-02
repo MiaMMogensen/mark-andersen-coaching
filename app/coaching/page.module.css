@@ -1,0 +1,518 @@
+/* Hero sektion */
+
+.page {
+  margin-top: 122px;
+}
+
+.heroImg {
+  width: 100%;
+  max-width: 1900px;
+  height: auto;
+}
+
+.heroWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.heroContent {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  color: white;
+}
+
+.heroContent h1 {
+  font-size: clamp(28px, 5vw, 70px);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 50px;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.heroContent p {
+  font-size: clamp(16px, 2vw, 32px);
+  margin-bottom: 50px;
+  max-width: 62%;
+  line-height: 1.5;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.bookCta,
+.bookCtaBottom {
+  display: inline-block;
+  background-color: var(--brown);
+  padding: 20px 28px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: clamp(16px, 2vw, 32px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.bookCtaBottom {
+  box-shadow: none;
+  width: clamp(200px, 40vw, 400px);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bookCta:hover,
+.bookCtaBottom:hover {
+  background-color: #6f6458;
+}
+
+/* Hvad du får i et forløb sektion */
+
+.courseInfoSection {
+  padding: clamp(40px, 8vw, 100px) clamp(16px, 7vw, 100px);
+}
+
+.courseInfoSection h2 {
+  font-size: clamp(28px, 4vw, 56px);
+  margin-bottom: 50px;
+}
+
+.courseInfoSection > p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  margin-bottom: 50px;
+}
+
+.courseGrid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.courseCard {
+  position: relative;
+  background-color: var(--grey);
+  padding: 40px 32px;
+  width: 100%;
+  max-width: none;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.courseCard::before {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 2px solid white;
+  pointer-events: none;
+}
+
+.courseIcon {
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
+  width: clamp(40px, 6vw, 100px);
+  height: auto;
+  object-fit: contain;
+  margin-bottom: clamp(12px, 1.5vw, 20px);
+  z-index: 1;
+}
+
+.courseCard h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: clamp(16px, 1.6vw, 24px);
+  font-weight: 700;
+  line-height: 1.4;
+  position: relative;
+  z-index: 1;
+}
+
+.courseCard p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+/* Sådan fungerer et forløb sektion */
+
+.courseSection {
+  padding: clamp(20px, 10vw, 80px) clamp(16px, 7vw, 100px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(10px, 10vw, 15px);
+  margin-bottom: 50px;
+  background-color: var(--grey);
+  position: relative;
+}
+
+.courseSection::before {
+  content: "";
+  position: absolute;
+  inset: 18px;
+  border: 2px solid white;
+  pointer-events: none;
+}
+
+.courseItem {
+  display: flex;
+  gap: clamp(12px, 2vw, 15px);
+  margin-top: 30px;
+}
+
+.courseSection h2 {
+  color: var(--black);
+  font-size: clamp(28px, 4vw, 56px);
+}
+
+.courseSection p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.courseSection h3 {
+  font-size: clamp(18px, 2vw, 24px);
+}
+
+/* Er et forløb det rette for dig sektion */
+
+.listSection {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(40px, 10vw, 180px);
+  padding: clamp(30px, 1vw, 80px) clamp(16px, 4vw, 80px);
+  max-width: 1400px;
+  margin: 40px auto 80px;
+}
+
+.listSection p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.listSection h2 {
+  font-size: clamp(22px, 3vw, 36px);
+  margin-bottom: clamp(16px, 3vw, 50px);
+  line-height: 1.3;
+}
+
+.listItemsLeft,
+.listItemsRight {
+  display: flex;
+  align-items: center;
+  gap: clamp(12px, 2vw, 15px);
+  margin-top: 30px;
+  border-bottom: 1px solid var(--black);
+}
+
+.listSectionSubtitle {
+  font-size: clamp(15px, 3vw, 25px);
+  margin-bottom: 100px;
+  padding: 0 clamp(16px, 5vw, 100px);
+  text-align: center;
+  line-height: 1.4;
+}
+
+/* Info med statistikker sektion */
+
+.infoSection {
+  padding: 40px clamp(10px, 4vw, 40px);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: clamp(12px, 6vw, 80px);
+  justify-content: center;
+  text-align: center;
+  background-color: var(--grey);
+  position: relative;
+}
+
+.infoSection::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 2px solid white;
+  pointer-events: none;
+}
+
+.infoItem {
+  white-space: nowrap;
+}
+
+.infoItem h2 {
+  font-size: clamp(14px, 3vw, 64px);
+  margin-bottom: 10px;
+}
+
+.infoItem p {
+  font-size: clamp(10px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.infoDivider {
+  width: 2px;
+  height: clamp(40px, calc(1em + 5vw), 90px);
+  background-color: #000;
+  flex-shrink: 0;
+}
+
+/* Lyder det som noget for dig sektion */
+
+.forYouSection {
+  padding: clamp(20px, 10vw, 80px) clamp(16px, 7vw, 100px);
+  display: flex;
+  flex-direction: row;
+  gap: clamp(40px, 10vw, 80px);
+}
+
+.forYouSectionLeft {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(10px, 10vw, 30px);
+}
+
+.forYouSection h2 {
+  font-size: clamp(28px, 4vw, 56px);
+  margin-bottom: 50px;
+}
+
+.forYouSection p {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.forYouSectionImg {
+  flex: 0 1 35%;
+  width: 100%;
+  max-width: clamp(260px, 40vw, 652px);
+  height: auto;
+  object-fit: cover;
+  margin-right: clamp(20px, 4vw, 100px);
+}
+
+.forYouSectionBold {
+  font-weight: 700;
+  font-size: clamp(16px, 2vw, 26px);
+  margin-top: 30px;
+}
+
+/* Media queries */
+
+@media (max-width: 1240px) {
+  .page {
+    margin-top: 94px;
+  }
+}
+
+@media (max-width: 1110px) {
+  .heroContent p {
+    max-width: 60%;
+  }
+
+  .forYouSectionImg {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .listSection {
+    gap: clamp(24px, 10vw, 80px);
+    padding: 40px 50px;
+    margin: 0;
+  }
+
+  .listSection h2 {
+    font-size: 25px;
+  }
+
+  .listSectionSubtitle {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .courseGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .courseCard {
+    padding: 40px 32px;
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .page {
+    margin-top: 78px;
+  }
+
+  .heroContent h1 {
+    margin-bottom: 30px;
+  }
+
+  .heroContent p {
+    margin-bottom: 30px;
+    max-width: 60%;
+  }
+
+  .bookCta {
+    padding: 16px 28px;
+  }
+
+  .bookCtaBottom {
+    padding: 15px 0px;
+    margin-bottom: 20px;
+  }
+
+  .courseSection {
+    padding: 40px 30px;
+  }
+
+  .forYouSectionLeft {
+    gap: 20px;
+  }
+
+  .bookCtaBottom {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .courseGrid {
+    gap: 24px;
+  }
+
+  .courseCard {
+    padding: 32px 24px;
+    min-height: auto;
+  }
+
+  .courseIcon {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 700px) {
+  .listSection {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+
+  .listSection h2 {
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .listItemsLeft,
+  .listItemsRight {
+    gap: 12px;
+    width: 400px;
+  }
+
+  .listSectionSubtitle {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroContent {
+    top: 7%;
+    left: 5%;
+  }
+  .heroContent h1 {
+    margin-bottom: 15px;
+    font-size: 22px;
+  }
+
+  .heroContent p {
+    max-width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .bookCta {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .courseGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .courseInfoSection h2 {
+    margin-bottom: 30px;
+  }
+
+  .courseInfoSection > p {
+    margin-bottom: 30px;
+  }
+
+  .courseSection::before {
+    inset: 14px;
+  }
+
+  .infoSection::before {
+    display: none;
+  }
+
+  .infoDivider {
+    width: 1px;
+  }
+
+  .forYouSection {
+    padding: 32px 20px;
+    gap: 20px;
+  }
+
+  .forYouSection h2 {
+    margin-bottom: 12px;
+  }
+
+  .forYouSectionBold {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .infoSection {
+    gap: 9px;
+    padding: 20px;
+  }
+
+  .listSection h2 {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .listSection p {
+    font-size: 14px;
+  }
+
+  .listSectionSubtitle {
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+
+  .listItemsLeft,
+  .listItemsRight {
+    width: 300px;
+  }
+
+  .listItemsLeft img,
+  .listItemsRight img {
+    width: 14px;
+    height: auto;
+  }
+
+  .listSection {
+    padding: 10px 12px;
+    gap: 60px;
+  }
+}
