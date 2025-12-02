@@ -61,7 +61,14 @@ export default function Footer() {
       </div>
 
       <div className={styles.footerRight}>
-        <p>©2025 Mark Andersen Coaching</p>
+        <div className={styles.contacts}>
+          <p className={styles.contactsTitle}>Kontaktoplysninger</p>
+          <p>Markandersencoaching@gmail.com</p>
+          <p>30 89 30 49</p>
+        </div>
+        <div>
+          <p>© 2025 Mark Andersen Coaching</p>
+        </div>
       </div>
     </footer>
   );
