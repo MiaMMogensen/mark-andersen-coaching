@@ -54,6 +54,11 @@
   color: var(--white);
 }
 
+.booking.active {
+  background-color: var(--black);
+  color: var(--white);
+}
+
 .burger {
   display: none;
   flex-direction: column;
