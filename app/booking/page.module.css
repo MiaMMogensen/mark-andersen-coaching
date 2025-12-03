@@ -1,0 +1,317 @@
+.page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: clamp(20px, 4vw, 30px) clamp(12px, 3vw, 20px) clamp(60px, 6vw, 100px);
+  margin-top: 122px;
+}
+
+.bookingTitle {
+  font-size: clamp(28px, 4vw, 56px);
+  color: var(--black);
+  margin-bottom: 50px;
+}
+
+.bookingInfo {
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingInfoBold {
+  font-weight: 600;
+}
+
+.bookingLayout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  gap: 50px;
+  margin-top: 60px;
+}
+
+.calendarCard,
+.timesCard {
+  background-color: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border: 1px solid black;
+}
+
+/* Kalender */
+
+.calendarHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.navButton {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 999px;
+  font-size: 16px;
+  line-height: 1;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.navButton:hover:not(:disabled) {
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.navButton:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.monthLabel {
+  font-weight: 600;
+  font-size: clamp(16px, 1.4vw, 20px);
+}
+
+.weekdayRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.weekday {
+  text-align: center;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* Dage */
+
+.dayButton {
+  padding: 8px 0;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--grey);
+  color: #1d1b16;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, transform 0.1s ease;
+}
+
+.dayButton:hover:not(.dayButtonDisabled):not(:disabled) {
+  background-color: var(--brown);
+  transform: translateY(-1px);
+  color: white;
+}
+
+.dayButtonSelected {
+  background-color: var(--brown);
+  color: #fff;
+}
+
+.dayButtonDisabled {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.4);
+  cursor: default;
+}
+
+/* Tider */
+
+.timesCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.subheading {
+  font-size: clamp(16px, 1.4vw, 20px);
+  margin: 0 0 8px;
+}
+
+.helperText {
+  font-size: clamp(14px, 1.4vw, 16px);
+  color: rgba(0, 0, 0, 0.7);
+  margin-top: 8px;
+}
+
+.timesList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.timeButton {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background-color: #fff;
+  color: #1d1b16;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease,
+    transform 0.1s ease;
+}
+
+.timeButton:hover {
+  background-color: var(--brown);
+  border-color: rgba(0, 0, 0, 0.2);
+  transform: translateY(-1px);
+  color: white;
+}
+
+.timeButtonSelected {
+  background-color: var(--brown);
+  color: #fff;
+  border-color: transparent;
+}
+
+.continueButton {
+  margin-top: 12px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--brown);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+.continueButton:hover {
+  background-color: #6f6458;
+  transform: translateY(-1px);
+}
+
+/* Formular */
+
+.form {
+  margin-top: 60px;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  color: #1d1b16;
+}
+
+.input,
+.textarea {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  padding: 8px 10px;
+  font: inherit;
+  background-color: #fff;
+}
+
+.required {
+  color: #b3261e;
+}
+
+.input:focus,
+.textarea:focus {
+  outline: 2px solid rgba(91, 58, 36, 0.35);
+  outline-offset: 1px;
+  border-color: transparent;
+}
+
+.selectedSlot {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.submitButton {
+  margin-top: 8px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  background-color: var(--brown);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-start;
+  transition: background 0.15s ease, transform 0.1s ease, opacity 0.15s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+  background-color: #6f6458;
+  transform: translateY(-1px);
+}
+
+.submitButton:disabled {
+  opacity: 0.7;
+  cursor: default;
+}
+
+/* Fejl & bekræftelse */
+
+.errorText {
+  font-size: 13px;
+  color: #b3261e;
+  margin-top: 2px;
+}
+
+.confirmation {
+  margin-top: 32px;
+  padding: 20px 22px;
+  border-radius: 16px;
+  background-color: #e6f4ea;
+  border: 1px solid #c4e3cd;
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+/* Media queries */
+
+@media (max-width: 1240px) {
+  .page {
+    margin-top: 94px;
+    padding: 24px 40px 80px 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .page {
+    padding: 24px 30px 60px 30px;
+    margin-top: 90px;
+  }
+
+  .bookingLayout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .calendarCard,
+  .timesCard {
+    padding: 16px 16px 20px;
+  }
+
+  .form {
+    margin-top: 24px;
+    padding: 20px 18px 24px;
+  }
+
+  .bookingInfo {
+    gap: 30px;
+  }
+}
