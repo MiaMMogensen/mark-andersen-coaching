@@ -162,6 +162,10 @@
     color: var(--black);
   }
 
+  .booking.active {
+    background-color: transparent;
+  }
+
   .active {
     background-color: transparent;
   }

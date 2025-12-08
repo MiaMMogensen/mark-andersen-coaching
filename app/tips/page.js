@@ -157,6 +157,7 @@ export default function TipsPage() {
                 height={289}
                 className={styles.image}
               />
+              <span className={styles.mealTypeBadge}>{tip.category}</span>
               <h3>{tip.title}</h3>
               <p>{tip.excerpt}</p>
               <span className={styles.readMore}>Læs mere</span>

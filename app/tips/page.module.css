@@ -182,6 +182,17 @@
   color: #666;
 }
 
+.mealTypeBadge {
+  display: inline-block;
+  align-self: flex-start;
+  padding: 6px 12px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  background: var(--brown);
+  font-size: 14px;
+  color: white;
+}
+
 /* Media queries */
 
 @media (max-width: 900px) {

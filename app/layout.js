@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
         {children}
+        <script async src="https://www.instagram.com/embed.js"></script>
         <Footer />
       </body>
     </html>
