@@ -30,7 +30,6 @@ export default function Header() {
         />
       </Link>
 
-      {/* Burger-knap */}
       <button
         type="button"
         className={`${styles.burger} ${isOpen ? styles.burgerOpen : ""}`}
@@ -47,13 +46,13 @@ export default function Header() {
         className={`${styles.navLinks} ${isOpen ? styles.navLinksOpen : ""}`}
       >
         <Link
-          href="/tips"
+          href="/coaching"
           className={`${styles.navLink} ${
-            pathname.startsWith("/tips") ? styles.active : ""
+            pathname === "/coaching" ? styles.active : ""
           }`}
           onClick={handleClose}
         >
-          Tips og råd
+          Coachingforløb
         </Link>
         <Link
           href="/opskrifter"
@@ -65,13 +64,13 @@ export default function Header() {
           Opskrifter
         </Link>
         <Link
-          href="/coaching"
+          href="/tips"
           className={`${styles.navLink} ${
-            pathname === "/coaching" ? styles.active : ""
+            pathname.startsWith("/tips") ? styles.active : ""
           }`}
           onClick={handleClose}
         >
-          Coachingforløb
+          Tips og råd
         </Link>
         <Link
           href="/anmeldelser"

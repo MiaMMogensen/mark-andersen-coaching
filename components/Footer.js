@@ -7,9 +7,9 @@ export default function Footer() {
     <footer className={styles.footer}>
       <nav className={styles.footerLeft} aria-label="Footer menu">
         <p>Menu</p>
-        <Link href="/tips">Tips og råd</Link>
-        <Link href="/opskrifter">Opskrifter</Link>
         <Link href="/coaching">Coachingforløb</Link>
+        <Link href="/opskrifter">Opskrifter</Link>
+        <Link href="/tips">Tips og råd</Link>
         <Link href="/anmeldelser">Anmeldelser</Link>
         <Link href="/booking">Booking</Link>
       </nav>
