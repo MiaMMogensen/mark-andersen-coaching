@@ -1,0 +1,464 @@
+.page {
+  margin-top: 122px;
+  padding: 40px clamp(20px, 6vw, 80px) 80px;
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Øverste sektion med titel, beskrivelse, tal, billede, favoritknap og ingredienser*/
+
+.header {
+  margin-bottom: 30px;
+}
+
+.categoryBadge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 14px;
+  background: var(--brown);
+  color: white;
+}
+
+.topSection {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(32px, 4vw, 48px);
+  align-items: flex-start;
+  margin-bottom: 200px;
+}
+
+.backLink {
+  border: none;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 24px;
+  font-size: clamp(16px, 1.4vw, 20px);
+  cursor: pointer;
+  text-align: left;
+}
+
+.titleRow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: clamp(28px, 4vw, 56px);
+  line-height: 1.6;
+}
+
+/* Fix af titler på 2 af siderne fordi de var for lange og breakede til 2 linjer */
+
+[data-slug="one-pan-dumplings"] .title,
+[data-slug="skyr-chokoladeboller"] .title {
+  max-width: 500px;
+  line-height: 1.1;
+  white-space: nowrap;
+  font-size: clamp(28px, 4vw, 50px);
+}
+
+.favoriteButton {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: var(--brown);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0;
+  z-index: 2;
+  width: 42px;
+  height: 42px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+
+.favoriteIcon {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
+
+.intro {
+  max-width: 500px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  font-size: clamp(16px, 1.4vw, 20px);
+}
+
+.metaRow {
+  display: flex;
+  gap: 55px;
+  padding-top: 24px;
+  border-top: 1px solid #e3e3e3;
+  max-width: 500px;
+  text-align: center;
+}
+
+.metaItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.metaNumber {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.metaLabel {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.topRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.imageFrame {
+  position: relative;
+  width: clamp(260px, 55vw, 400px);
+  margin-top: 50px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.recipeImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ingredientsCard {
+  position: absolute;
+  left: -100px;
+  top: 75%;
+  transform: translateY(-50%);
+  background: var(--grey);
+  padding: 28px 45px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  max-width: 300px;
+}
+
+.ingredientsCard::before {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  border: 2px solid white;
+  pointer-events: none;
+}
+
+.ingredientsHeading {
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: clamp(16px, 1.4vw, 22px);
+}
+
+.ingredientsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.ingredientsList li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.6;
+}
+
+.ingredientsList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 10px;
+  height: 10px;
+  background-color: var(--brown);
+  border-radius: 3px;
+}
+
+/* Nederste sektion */
+
+.contentSection {
+  margin-top: 64px;
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(80px, 12vw, 220px);
+  align-items: flex-start;
+}
+
+/* Instagram video */
+
+.instagramEmbed {
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.igCard {
+  width: 100%;
+  max-width: 420px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+}
+
+.igHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 12px;
+}
+
+.igUser {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.igAvatar {
+  border-radius: 999px;
+}
+
+.igName {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.igFollowers {
+  font-size: 12px;
+  color: #666;
+}
+
+.igProfileButton {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #0095f6;
+  color: #fff;
+  text-decoration: none;
+}
+
+.igVideo {
+  width: 100%;
+}
+
+.videoElement {
+  width: 100%;
+  display: block;
+}
+
+.igFooterLink {
+  display: block;
+  padding: 10px 12px 12px;
+  font-size: 13px;
+  color: #555;
+  text-decoration: none;
+}
+
+.videoWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Fremgangmåde */
+
+.steps h2 {
+  font-size: clamp(20px, 10vw, 35px);
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+.stepsList {
+  margin: 0;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 1.6;
+  font-size: clamp(16px, 1.4vw, 20px);
+}
+
+.stepsList li::marker {
+  color: var(--brown);
+  font-weight: 600;
+}
+
+.subList {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+
+.subList li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: clamp(16px, 1.4vw, 20px);
+  line-height: 1.5;
+}
+
+.subList li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 10px;
+  height: 10px;
+  background-color: var(--brown);
+  border-radius: 3px;
+}
+
+.bottomText {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: clamp(20px, 10vw, 35px);
+  text-align: center;
+}
+
+/* Media Queries */
+
+@media (max-width: 1150px) {
+  .imageFrame {
+    margin-left: 100px;
+  }
+
+  .ingredientsCard {
+    padding: 24px 35px;
+  }
+}
+
+@media (max-width: 900px) {
+  .page {
+    padding: 24px 30px 48px;
+  }
+
+  .imageFrame {
+    margin-left: 0;
+  }
+
+  .topSection {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin-bottom: 60px;
+  }
+
+  .titleRow {
+    gap: 12px;
+  }
+
+  .favoriteButton {
+    width: 38px;
+    height: 38px;
+  }
+
+  .intro {
+    max-width: none;
+    margin-bottom: 24px;
+  }
+
+  .metaRow {
+    max-width: none;
+    gap: 32px;
+    justify-content: flex-start;
+  }
+
+  .topRight {
+    justify-content: center;
+  }
+
+  .ingredientsCard {
+    position: absolute;
+    left: -50px;
+    top: 100px;
+    transform: none;
+    max-width: 260px;
+    padding: 20px 24px;
+  }
+
+  .ingredientsCard::before {
+    inset: 8px;
+  }
+
+  .contentSection {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+  }
+
+  .steps {
+    order: 1;
+  }
+
+  .videoWrapper {
+    order: 2;
+  }
+
+  .steps h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .stepsList {
+    gap: 18px;
+  }
+
+  .bottomText {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .page {
+    margin-top: 80px;
+  }
+
+  .title {
+    margin-top: 40px;
+  }
+
+  .favoriteButton {
+    margin-top: 20px;
+  }
+
+  .imageFrame {
+    margin-left: 60px;
+  }
+
+  .ingredientsCard {
+    max-width: 80%;
+    left: -50px;
+    padding: 18px 20px;
+  }
+
+  .contentSection {
+    margin-top: 160px;
+  }
+
+  .bottomText {
+    font-size: 20px;
+  }
+
+  .contentSection {
+    align-items: center;
+  }
+}

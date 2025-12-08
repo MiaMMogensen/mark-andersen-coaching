@@ -1,0 +1,321 @@
+[
+  {
+    "id": "1",
+    "slug": "mini-tacos",
+    "title": "Mini Tacos",
+    "image": "/img/opskrift1.png",
+    "recipeImage": "/img/mini-tacos.png",
+    "description": "Hvis du vil have en hurtig, sprød og virkelig lækker hverdagsret, så skal du prøve disse mini tacos! Perfekte til aftensmad, tapas eller som snack — og super nemme at lave.",
+    "time": "25",
+    "calories": "",
+    "ingredients": ["400 g kyllingebryst", "Mini totillas", "Revet ost"],
+    "steps": [
+      "Skær kyllingebrystet ud i mini stykker og krydr med dine favorit krydderier.",
+      "Steg det på panden til det er gennemstegt.",
+      "Tilføj den stegte kylling på halvdelen af en mini tortilla.",
+      "Tilføj revet ost.",
+      "Fold dem på midten og læg dem på en bradepande",
+      "Pensl dem med æg og put dem i ovnen ved 200°C i 7-10 min eller indtil de er gyldne.",
+      "Imens de er i ovnen så lav evt. en hjemmelavet guacamole eller salsa til at toppe dine mini tacos med."
+    ],
+    "bottomText": "Disse mini tacos er perfekte som en hurtig og lækker hverdagsret.",
+    "category": "Aftensmad",
+    "media_type": "VIDEO",
+    "media_url": "/video/mini-tacos.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DQ7MIpbCB60/"
+  },
+  {
+    "id": "2",
+    "slug": "proteinpandekager",
+    "title": "Proteinpandekager",
+    "image": "/img/opskrift2.png",
+    "recipeImage": "/img/proteinpandekager.png",
+    "description": "De her proteinpandekager må du ikke gå glip af! Specielt dig som godt kan lide fluffy proteinpandekager. De er super nemme at lave og perfekte til morgenmad eller som en lækker snack.",
+    "time": "15",
+    "calories": "60",
+    "ingredients": [
+      "1 proteinbudding",
+      "1 æg",
+      "2 spsk mel",
+      "1 tsk bagepulver",
+      "En håndfuld blåbær eller andet topping"
+    ],
+    "steps": [
+      {
+        "text": "Find en skål og tilføj:",
+        "sub": ["1 vaniljebudding.", "1 æg"]
+      },
+      "Mix det godt sammen.",
+      "Tilføj 2 spsk mel og rør sammen igen.",
+      "Steg dejen på en pande ved middel varme i små pandekager.",
+      "Top med blåbær eller din yndlings topping."
+    ],
+    "bottomText": "Så har du lækre, luftige pandekager på kun 60 kalorier stykket.",
+    "category": "Morgenmad",
+    "media_type": "VIDEO",
+    "media_url": "/video/proteinpandekager.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DQWTIb_iAmS/"
+  },
+  {
+    "id": "3",
+    "slug": "proteinmuffins",
+    "title": "Proteinmuffins",
+    "image": "/img/opskrift3.png",
+    "recipeImage": "/img/proteinmuffins.png",
+    "description": "Hvis du mangler en hurtig, sød og proteinrig snack, så er disse muffins et must-try! De er simple at lave, saftige og helt perfekte til morgenmad eller et sundt mellemmåltid.",
+    "time": "30",
+    "calories": "132",
+    "ingredients": [
+      "2 bananer",
+      "100 g havregryn",
+      "50 g vaniljeproteinpulver",
+      "1 dl mælk",
+      "40 g mælke- eller mørk chokolade"
+    ],
+    "steps": [
+      "Forvarm ovnen til 160°C.",
+      "Mos de 2 bananer og tilføj dem til en skål.",
+      {
+        "text": "Tilføj følgende ingredienser til skålen:",
+        "sub": [
+          "100 g havregryn.",
+          "50 g vaniljeproteinpulver.",
+          " 1 dl mælk.",
+          "40 g chokolade."
+        ]
+      },
+      "Mix det hele grundigt sammen.",
+      "Fordel dejen til 8 muffins i en muffinform.",
+      "Bag dem i 15-20 minutter."
+    ],
+    "bottomText": "Så har du disse lækre proteinmuffins på 132 kalorier stykket! Perfekt som en sund snack eller til morgenmaden.",
+    "category": "Bagværk",
+    "media_type": "VIDEO",
+    "media_url": "/video/proteinmuffins.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DRXPj5gCLCa/"
+  },
+  {
+    "id": "4",
+    "slug": "skyr-chokoladeboller",
+    "title": "Skyr chokoladeboller",
+    "image": "/img/opskrift4.png",
+    "recipeImage": "/img/skyr-chokoladeboller.png",
+    "description": "Hvis du er på udkig efter en hurtig, blød og lækker snack med et chokoladetwist, så skal du helt klart prøve de her skyrboller! De er super nemme at lave, proteinrige og perfekte som morgenmad eller til madpakken.",
+    "time": "30",
+    "calories": "180",
+    "ingredients": [
+      "4 æg",
+      "200 g havregryn",
+      "200 g hvedemel",
+      "400 g vanilje skyr",
+      "2 tsk bagepulver",
+      "Lidt salt",
+      "100 g mørk chokolade"
+    ],
+    "steps": [
+      "Forvarm ovnen til 200°C.",
+      {
+        "text": "Find en skål og tilføj:",
+        "sub": [
+          "4 æg",
+          "200 g havregryn",
+          "200 g hvedemel",
+          "400 g vanilje skyr",
+          "2 tsk bagepulver",
+          "Lidt salt"
+        ]
+      },
+      "Rør det hele godt sammen.",
+      {
+        "text": "Tilføj derefter:",
+        "sub": ["100 g mørk chokolade"]
+      },
+      "Form bollerne (ca. 14 styk) med to våde skeer og læg dem på en bageplade.",
+      "Bag dem i ovnen i 20 minutter."
+    ],
+    "bottomText": "Så har du disse lækre og velsmagende skyr chokoladeboller!",
+    "category": "Bagværk",
+    "media_type": "VIDEO",
+    "media_url": "/video/skyr-chokoladeboller.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DRMwZUcCK8L/"
+  },
+  {
+    "id": "5",
+    "slug": "kalorielette-boller",
+    "title": "Kalorielette boller",
+    "image": "/img/opskrift5.png",
+    "recipeImage": "/img/kalorielette-boller.png",
+    "description": "Hvis du ønsker nogle luftige, mættende og kaloriefattige boller, som er gode både til morgenmad, madpakke eller som et sundt mellemmåltid, så bør du helt klart prøve denne opskrift.",
+    "time": "40",
+    "calories": "136",
+    "ingredients": [
+      "200 g havregryn",
+      "50 g skyr",
+      "250 g hytteost",
+      "2 æg",
+      "1 tsk bagepulver",
+      "Lidt salt"
+    ],
+    "steps": [
+      "Forvarm ovnen til 200°C.",
+      "Blend 200 g havregryn til mel og hæld det i en skål.",
+      {
+        "text": "Tilsæt følgende ingredienser til skålen:",
+        "sub": [
+          "50 g neutral skyr.",
+          "250 g hytteost.",
+          "2 hele æg.",
+          "1 tsk bagepulver.",
+          "Lidt salt."
+        ]
+      },
+      "Rør dejen godt sammen, til den er ensartet.",
+      "Form 8 boller med en ske eller våde hænder, og placer dem på en bageplade.",
+      "Pensl med æg for en flot overflade.",
+      "Bag bollerne i ca. 20 minutter, til de er gyldne og faste."
+    ],
+    "bottomText": "Nu har du de lækreste luftige boller på kun 136 kalorier pr styk",
+    "category": "Bagværk",
+    "media_type": "VIDEO",
+    "media_url": "/video/kalorielette-boller.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DPRnpzDiEVp/"
+  },
+  {
+    "id": "6",
+    "slug": "Kartoffel-fladbrød",
+    "title": "Kartoffel Fladbrød",
+    "image": "/img/opskrift6.png",
+    "recipeImage": "/img/kartoffel-fladbroed.png",
+    "description": "Disse kartoffel fladbrød er super nemme at lave og perfekte som tilbehør til aftensmaden eller som en let frokost. De er sprøde udenpå og bløde indeni, og kan nydes med dit yndlingsfyld.",
+    "time": "20",
+    "calories": "",
+    "ingredients": [
+      "2-3 kartofler",
+      "Mozerella ost",
+      "Salt",
+      "Peper",
+      "Pesto",
+      "Ruccola",
+      "Serrano skinke",
+      "Din favorit grønt"
+    ],
+    "steps": [
+      "Forvarm ovnen til 180°C.",
+      "Skær kartofflerne i tynde skiver og læg dem på en bageplade.",
+      "Dup kartoffelskiverne tørre med køkkenrulle.",
+      "Spray dem med lidt olie.",
+      "Tilføj revet mozerella ost på toppen af kartoffelskiverne.",
+      "Krydr med salt og peber.",
+      "Bag dem i ovnen i 10 minutter, eller indtil osten er smeltet og gylden.",
+      "Tag dem ud af ovnen og lad dem køle lidt af.",
+      "Top med pesto, ruccola, serrano skinke, mozerella og dit favorit grønt."
+    ],
+    "bottomText": "Så har du disse lækre kartoffel fladbrød. Super nemme at lave og virkelig lækre.",
+    "category": "Frokost",
+    "media_type": "VIDEO",
+    "media_url": "/video/kartoffel-fladbroed.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DL5HOsLNvPZ/"
+  },
+  {
+    "id": "7",
+    "slug": "couscous-salat",
+    "title": "Couscous salat",
+    "image": "/img/opskrift7.png",
+    "recipeImage": "/img/couscous-salat.png",
+    "description": "Hvis du elsker noget friskt, fyldigt og super nemt at lave, så er denne couscous salat et must! Den er sprød, smagfuld og perfekt som frokost, tilbehør eller et let måltid.",
+    "time": "10",
+    "calories": "",
+    "ingredients": [
+      "3 dl couscous",
+      "200 g Puck ost",
+      "1 rødløg",
+      "1-2 rød peber",
+      "1 agurk",
+      "2-3 tomater",
+      "Frisk persille og dild"
+    ],
+    "steps": [
+      "Tilbered couscousen efter anvisningen på pakken og lad den køle af.",
+      "Hak grøntsagerne i små tern og tilføj dem til en stor skål.",
+      "Tilføj 2-3 dl afkølet couscous til skålen med grøntsager.",
+      "Smuldr puck osten over salaten.",
+      "Topper med persille og dild.",
+      "Rør det hele godt sammen og server."
+    ],
+    "bottomText": "Så har du denne friske og lækre couscous salat. Perfekt som tilbehør eller som en let frokost.",
+    "category": "Salat",
+    "media_type": "VIDEO",
+    "media_url": "/video/couscous-salat.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DOeH_ebCHzM/"
+  },
+  {
+    "id": "8",
+    "slug": "one-pan-dumplings",
+    "title": "One pan dumplings",
+    "image": "/img/opskrift8.png",
+    "recipeImage": "/img/one-pan-dumplings.png",
+    "description": "Nem, hurtig og lækker ret - alt ryger direkte i panden, og efter 20 minutter har du en cremet, asiatisk-inspireret ret med dumplings, grøntsager og kylling. Perfekt til en travl hverdag!",
+    "time": "30",
+    "calories": "",
+    "ingredients": [
+      "1 bundt forårsløg",
+      "2 fed hvidløg",
+      "2 tsk revet ingefær",
+      "1 brocolli i buketter",
+      "500 ml kokosmælk",
+      "3 tsk rød curry paste",
+      "2 tsk fiskesauce",
+      "2 spsk sojasauce",
+      "Dumplings"
+    ],
+    "steps": [
+      "Snit forårsløgene og smid dem på panden",
+      "Tilføj 2 fed hvidløg, revet ingefær og brocolli",
+      "Tilføj en dåse kokosmælk og 3 tsk rød curry paste",
+      "Tilføj 2 tsk fiskesauce og 2 spsk sojasauce",
+      "Krydr med salt og peber.",
+      "Mix det grundigt sammen.",
+      "Tilføj en pose dumplings og lad det simre under låg i 20 minutter.",
+      "Top med koriander eller persille, og server med ris."
+    ],
+    "bottomText": "Super nem og lækker ret, perfekt til en travl hverdag.",
+    "category": "Aftensmad",
+    "media_type": "VIDEO",
+    "media_url": "/video/one-pan-dumplings.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DNyhmzE0Pn5/"
+  },
+  {
+    "id": "9",
+    "slug": "æggesalat",
+    "title": "Æggesalat",
+    "image": "/img/opskrift9.png",
+    "recipeImage": "/img/aeggesalat.png",
+    "description": "Hvis du mangler et nemt, proteinrigt og super cremet pålæg, så er denne æggesalat et must! Den er mild, mættende og perfekt til frokost eller madpakken.",
+    "time": "15",
+    "calories": "",
+    "ingredients": [
+      "200 g hytteost",
+      "1 1/2 tsk karry",
+      "1/2 teske gurkemeje",
+      "6 æg",
+      "Purløg"
+    ],
+    "steps": [
+      "Kog 6 æg til de er hårdkogte og lad dem køle af.",
+      "Pil skallen af æggene og hak dem i små stykker.",
+      {
+        "text": "Find en blender frem og tilføj:",
+        "sub": ["200 g hytteost.", "1 1/2 tsk karry.", "1/2 tsk gurkemeje."]
+      },
+      "Blend indholdet til en cremet konsistens.",
+      "Hæld indholdet i en skål og tilføj de hakkede æg.",
+      "Mix det grundigt sammen og smag til med salt og peber.",
+      "Tilføj purløg og rør igen."
+    ],
+    "bottomText": "Så har du denne hjemmelavede proteinrige æggesalat, perfekt ovenpå rugbrød til frokost.",
+    "category": "Frokost",
+    "media_type": "VIDEO",
+    "media_url": "/video/aeggesalat.mp4",
+    "instagramUrl": "https://www.instagram.com/p/DKU2aT_CLme/"
+  }
+]
