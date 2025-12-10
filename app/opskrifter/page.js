@@ -53,10 +53,23 @@ export default function RecipesPage() {
 
       if (!q) return matchesCategory;
 
-      const title = (recipe.title || "").toLowerCase();
-      const caption = (recipe.caption || "").toLowerCase();
+      const textFields = [
+        recipe.title || "",
+        recipe.caption || "",
+        recipe.description || "",
+      ].map((text) => text.toLowerCase());
 
-      const matchesSearch = title.includes(q) || caption.includes(q);
+      const ingredients = Array.isArray(recipe.ingredients)
+        ? recipe.ingredients
+        : [];
+
+      const matchesSearch =
+        textFields.some((text) => text.includes(q)) ||
+        ingredients.some(
+          (ingredient) =>
+            typeof ingredient === "string" &&
+            ingredient.toLowerCase().includes(q)
+        );
 
       return matchesCategory && matchesSearch;
     });
