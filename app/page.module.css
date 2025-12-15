@@ -166,7 +166,7 @@
 
 .certficates > div p {
   margin-top: 6px;
-  font-size: clamp(11px, 1.1vw, 14px);
+  font-size: clamp(11px, 1.1vw, 16px);
 }
 
 /* Sektion om Marks tilgang */

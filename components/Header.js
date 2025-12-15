@@ -10,6 +10,10 @@ export default function Header() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
 
+  const isOpskrifterPage =
+    pathname === "/opskrifter" || pathname.startsWith("/opskrifter/");
+  const isTipsPage = pathname === "/tips" || pathname.startsWith("/tips/");
+
   const handleToggle = () => {
     setIsOpen((prev) => !prev);
   };
@@ -57,7 +61,7 @@ export default function Header() {
         <Link
           href="/opskrifter"
           className={`${styles.navLink} ${
-            pathname === "/opskrifter" ? styles.active : ""
+            isOpskrifterPage ? styles.active : ""
           }`}
           onClick={handleClose}
         >
@@ -65,9 +69,7 @@ export default function Header() {
         </Link>
         <Link
           href="/tips"
-          className={`${styles.navLink} ${
-            pathname.startsWith("/tips") ? styles.active : ""
-          }`}
+          className={`${styles.navLink} ${isTipsPage ? styles.active : ""}`}
           onClick={handleClose}
         >
           Tips og råd
